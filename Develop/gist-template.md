@@ -1,16 +1,16 @@
 Used for user validation (most often), but can be used to capture bad info (doesn't match format, spam/fraud)
 
-# Title (replace with your title)
+# Title: Email Validation - Regex Expression
 
 Introductory paragraph (replace this with your text)
 
 ## Summary
 
-Briefly summarize the regex you will be describing and what you will explain. Include a code snippet of the regex. Replace this text with your summary.
+The regex expression that I will be explaining is /^([a-z0-9_\.-]+)@([\da-z\.-]+)\.([a-z\.]{2,6})$/, which is used to ensure that the email address a user enters is valid. I will explain how each aspect of this expression works to check the validity of the email address.
 
 ## Table of Contents
 
-- [Title (replace with your title)](#title-replace-with-your-title)
+- [Title: Email Validation - Regex Expression](#title-email-validation---regex-expression)
   - [Summary](#summary)
   - [Table of Contents](#table-of-contents)
   - [Regex Components](#regex-components)
@@ -30,9 +30,13 @@ Briefly summarize the regex you will be describing and what you will explain. In
 ## Regex Components
 
 ### Anchors
+Reference: /^([a-z0-9_\.-]+)@([\da-z\.-]+)\.([a-z\.]{2,6})$/
 
+At the beginning and end, you will notice two anchors, '^' and '$'. The '^' is always at the start of the expression, while '$' is always at the end of the expression.
 ### Quantifiers
+Reference: /^([a-z0-9_\.-]+)@([\da-z\.-]+)\.([a-z\.]{2,6})$/
 
+The quantifiers in this expression are '{}'. In this expression, the quantifiers are housing the "rule" that the domain of the email address (this being .com, .net, etc.) is at least 2 characters long and up to 6 characters.
 ### OR Operator
 
 ### Character Classes
