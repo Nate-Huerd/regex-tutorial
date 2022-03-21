@@ -38,15 +38,25 @@ Reference: /^([a-z0-9_\.-]+)@([\da-z\.-]+)\.([a-z\.]{2,6})$/
 
 The quantifiers in this expression are '{}'. In this expression, the quantifiers are housing the "rule" that the domain of the email address (this being .com, .net, etc.) is at least 2 characters long and up to 6 characters.
 ### OR Operator
+Reference: /^([a-z0-9_\.-]+)@([\da-z\.-]+)\.([a-z\.]{2,6})$/
 
+CHECK ON \.
 ### Character Classes
+Reference: /^([a-z0-9_\.-]+)@([\da-z\.-]+)\.([a-z\.]{2,6})$/
 
+UNKNOWN - may not have
 ### Flags
+Reference: /^([a-z0-9_\.-]+)@([\da-z\.-]+)\.([a-z\.]{2,6})$/
 
+UNKNOWN - may not have
 ### Grouping and Capturing
 
 ### Bracket Expressions
 
+
+The bracket expressions within this expression are encompassed in the multiple '[]' brackets. The content within the brackets state what is to be contained in the user input. If you type in an email address, based off of this expression, it can be lowercase (any letter a to z), it can have digits between zero and nine, may contain an underscore, period, or hyphen. 
+
+REVISE
 ### Greedy and Lazy Match
 
 ### Boundaries
