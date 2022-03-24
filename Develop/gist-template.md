@@ -52,14 +52,16 @@ UNKNOWN - may not have
 ### Grouping and Capturing
 
 ### Bracket Expressions
-
+Reference: /^([a-z0-9_\.-]+)@([\da-z\.-]+)\.([a-z\.]{2,6})$/
 
 The bracket expressions within this expression are encompassed in the multiple '[]' brackets. The content within the brackets state what is to be contained in the user input. If you type in an email address, based off of this expression, it can be lowercase (any letter a to z), it can have digits between zero and nine, may contain an underscore, period, or hyphen. 
 
 REVISE
 ### Greedy and Lazy Match
+Reference: /^([a-z0-9_\.-]+)@([\da-z\.-]+)\.([a-z\.]{2,6})$/
 
 ### Boundaries
+Reference: /^([a-z0-9_\.-]+)@([\da-z\.-]+)\.([a-z\.]{2,6})$/
 
 ### Back-references
 
